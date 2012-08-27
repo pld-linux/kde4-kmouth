@@ -52,11 +52,17 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/kmousetool
-%{_desktopdir}/kde4/kmousetool.desktop
-%{_datadir}/apps/kmousetool
-%{_iconsdir}/hicolor/*/actions/kmousetool_off.png
-%{_iconsdir}/hicolor/*/actions/kmousetool_on.png
-%{_iconsdir}/hicolor/*/apps/kmousetool.png
-%{_docdir}/kde/HTML/en/kmousetool
-%{_mandir}/man1/kmousetool.1*
+%attr(755,root,root) %{_bindir}/kmouth
+%{_desktopdir}/kde4/kmouth.desktop
+%{_datadir}/config/kmouthrc
+%dir %{_datadir}/apps/kmouth
+%{_datadir}/apps/kmouth/kmouthui.rc
+%{_datadir}/apps/kmouth/icons
+%{_datadir}/apps/kmouth/phrasebookdialogui.rc
+%dir %{_datadir}/apps/kmouth/books
+%lang(de) %{_datadir}/apps/kmouth/books/de
+%lang(sv) %{_datadir}/apps/kmouth/books/sv
+%{_datadir}/apps/kmouth/books/en
+%{_iconsdir}/hicolor/*/apps/kmouth.png
+%{_docdir}/kde/HTML/en/kmouth
+%{_mandir}/man1/kmouth.1*
