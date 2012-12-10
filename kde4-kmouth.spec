@@ -4,7 +4,7 @@
 
 Summary:	K Desktop Environment - A program that speaks for you
 Name:		kde4-%{orgname}
-Version:	4.9.1
+Version:	4.9.4
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Graphics
