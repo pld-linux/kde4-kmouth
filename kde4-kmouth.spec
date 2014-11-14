@@ -4,12 +4,12 @@
 
 Summary:	K Desktop Environment - A program that speaks for you
 Name:		kde4-%{orgname}
-Version:	4.14.0
+Version:	4.14.3
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Graphics
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	8b61b83c0a13ffb9c77608e538955787
+# Source0-md5:	2ea4562d94bd497088bf7210b806c20f
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtCore-devel >= %{qtver}
